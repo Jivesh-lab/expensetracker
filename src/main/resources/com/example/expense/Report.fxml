@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="barcontainar" opacity="0.96" prefHeight="648.0" prefWidth="1119.0" style="-fx-background-color: #141414;" styleClass="E:\intellij\Expense\src\main\resources\Style" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.expense.ReportController">
+   <children>
+      <HBox layoutX="47.0" layoutY="26.0" prefHeight="123.0" prefWidth="1072.0" style="-fx-background-color: #141414;">
+         <children>
+            <VBox prefHeight="134.0" prefWidth="289.0" style="-fx-background-color: #141414;">
+               <children>
+                  <HBox prefHeight="31.0" prefWidth="179.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="165.0" text="Total balance" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="55.0" prefWidth="208.0">
+                     <children>
+                        <Label fx:id="lb1" alignment="CENTER" prefHeight="46.0" prefWidth="147.0" text="15000" textFill="#eddb18">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="54.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asset/char.jpg" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="23.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="130.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="40.0" style="-fx-background-color: #79e090;" text="4.5%" textFill="#1ac344">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="49.0" prefWidth="104.0" text="From yesterday" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="7.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="134.0" prefWidth="287.0" style="-fx-background-color: #141414;">
+               <children>
+                  <HBox prefHeight="31.0" prefWidth="179.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="165.0" text="Total Income" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="55.0" prefWidth="208.0">
+                     <children>
+                        <Label fx:id="lb2" alignment="CENTER" prefHeight="46.0" prefWidth="140.0" text="17500" textFill="#eddb18">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="59.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asset/up.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="130.0" style="-fx-background-color: #141414;">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="40.0" style="-fx-background-color: #79e090;" text="4.5%" textFill="#1ac344">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="49.0" prefWidth="104.0" text="From yesterday" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="7.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="134.0" prefWidth="304.0" style="-fx-background-color: #141414;">
+               <children>
+                  <HBox prefHeight="31.0" prefWidth="179.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="165.0" text="Total Expense" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="55.0" prefWidth="398.0">
+                     <children>
+                        <Label fx:id="lb3" alignment="CENTER" prefHeight="46.0" prefWidth="133.0" text="9000" textFill="#eddb18">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="31.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="49.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asset/down.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="130.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="40.0" style="-fx-background-color: #79e090;" text="4.5%" textFill="#1ac344">
+                           <HBox.margin>
+                              <Insets left="15.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="49.0" prefWidth="104.0" text="From yesterday" textFill="#fff9f9">
+                           <HBox.margin>
+                              <Insets left="7.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <LineChart fx:id="line" layoutX="30.0" layoutY="164.0" prefHeight="393.0" prefWidth="448.0">
+
+         <yAxis>
+            <NumberAxis side="LEFT" tickLabelFill="white" />
+         </yAxis>
+         <xAxis>
+          <CategoryAxis side="BOTTOM" tickLabelFill="white" />
+        </xAxis>
+
+      </LineChart>
+      <Button fx:id="exp1" layoutX="457.0" layoutY="565.0" mnemonicParsing="false" onAction="#onPrint" prefHeight="59.0" prefWidth="184.0" style="-fx-background-color: #eddb18;" text="Export To Excel" textFill="#070706">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <BarChart fx:id="barc" layoutX="516.0" layoutY="140.0" prefHeight="442.0" prefWidth="589.0">
+         <xAxis>
+            <!-- NumberAxis for expenses -->
+            <NumberAxis label="Expense Amount" side="BOTTOM" tickLabelFill="white" fx:id="xAxis" />
+         </xAxis>
+         <yAxis>
+            <!-- CategoryAxis for months -->
+            <CategoryAxis fx:id="yAxis" label="Month" side="LEFT" tickLabelFill="white" />
+         </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+#table2 .table-row-cell:odd {
+    -fx-background-color: #6d7499; /* Gray background for odd rows */
+}
+
+#table2 .table-row-cell:even {
+     -fx-background-color: black;; /* Blue background for even rows */
+}
+
+#table2 .table-row-cell .text {
+    -fx-fill: white; /* White text for all rows */
+}

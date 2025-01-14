@@ -1,0 +1,13 @@
+
+#info1 .table-row-cell:odd {
+    -fx-background-color: #6d7499; /* Grey background for odd rows */
+}
+
+#info1 .table-row-cell:even {
+    -fx-background-color: black; /* Black background for even rows */
+}
+
+/* Target text inside the cells for both odd and even rows */
+#info1 .table-row-cell .text {
+    -fx-fill: white; /* Red text for all rows */
+}
