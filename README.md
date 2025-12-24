@@ -1,54 +1,139 @@
-# 💸 Expense Tracker – Java Desktop Application
+🏗️ Construction Field Management Application
+<p align="center"> <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react"> <img src="https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge&logo=typescript"> <img src="https://img.shields.io/badge/Build-Vite-purple?style=for-the-badge&logo=vite"> <img src="https://img.shields.io/badge/Platform-Web%20%26%20Mobile--First-success?style=for-the-badge"> </p> <p align="center"> <b> A mobile-first construction field management application designed to digitize daily site operations, replacing WhatsApp messages, phone calls, and paper registers with a single unified platform. </b> </p>
+🎯 Project Overview
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-JDK%2017-orange?style=for-the-badge&logo=java">
-  <img src="https://img.shields.io/badge/JavaFX-UI-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql">
-  <img src="https://img.shields.io/badge/SceneBuilder-GUI-lightgrey?style=for-the-badge">
-</p>
+Construction Field Management Application is a modern web-based solution built to simplify and digitize construction site operations.
 
-<p align="center">
-  <b>A smart desktop application to track, analyze, and manage personal expenses for better savings and future budgeting.</b>
-</p>
+The application provides real-time visibility into project progress, workforce attendance, and site activities, helping engineers, managers, and owners make informed decisions.
 
----
+This project demonstrates:
 
-## 🎯 Project Overview
+✔️ Real-world problem solving
 
-**Expense Tracker** is a Java-based desktop application designed to help users **record daily expenses, analyze spending patterns, and plan budgets effectively**.
+✔️ Scalable frontend architecture
 
-The project demonstrates **real-world Java development concepts**, including database integration, MVC-style design, and GUI development using JavaFX.
+✔️ Industry-relevant construction workflows
 
-This application is ideal for:
-- Students learning Java & databases  
-- Personal finance tracking  
-- Academic and portfolio projects  
+❗ Problem Statement
 
----
+Most construction sites rely on unstructured communication methods such as:
 
-## ✨ Key Highlights
+WhatsApp messages
 
-- 📌 Add, edit, and delete expenses  
-- 🗂️ Categorize expenses (Food, Travel, Shopping, etc.)  
-- 📊 Analyze spending for better budgeting  
-- 💾 Persistent data storage using MySQL  
-- 🖥️ Clean and interactive JavaFX UI  
-- 🔌 Secure Java–MySQL connectivity  
+Phone calls
 
----
+Paper-based registers
 
-## 🛠️ Technology Stack
+These approaches result in:
 
-| Layer | Technology |
-|-----|-----------|
-| Programming Language | **Java (JDK 17)** |
-| UI Framework | **JavaFX** |
-| UI Designer | **Scene Builder** |
-| Database | **MySQL** |
-| DB Connectivity | **MySQL Connector/J** |
-| IDE | IntelliJ IDEA / Eclipse |
+❌ Data loss
 
----
+❌ No centralized tracking
 
-## 🧩 Architecture Overview
+❌ Poor accountability
 
+❌ Delayed decision-making
+
+As a result, owners and managers lack real-time insights into on-site activities.
+
+✅ Solution Overview
+
+This application introduces a centralized digital platform that standardizes site operations by:
+
+Digitizing daily progress reports
+
+Structuring attendance and material data
+
+Providing dashboards for management
+
+Improving transparency and accountability
+
+The solution is designed to work efficiently in low-connectivity, real construction environments.
+
+✨ Key Highlights
+
+🗂️ Centralized project management
+
+📝 Digital Daily Progress Reports (DPR)
+
+📍 Workforce attendance tracking
+
+📦 Material request & usage monitoring
+
+📊 Management dashboards & reports
+
+📱 Mobile-first and user-friendly design
+
+🛠️ Technology Stack
+Layer	Technology
+Frontend Framework	React
+Programming Language	TypeScript
+Build Tool	Vite
+Styling	CSS / Tailwind CSS
+State Management	React Hooks
+Backend (Planned)	Node.js / Express
+Database (Planned)	MongoDB
+🧩 Architecture Overview
+
+The application follows a modular, component-based architecture to ensure scalability and maintainability.
+
+Components Layer – Reusable UI components
+
+Pages Layer – Application screens and flows
+
+Services Layer – API calls and utility logic
+
+State Layer – Local and shared state management
+
+This separation ensures clean code, easy debugging, and future backend integration.
+
+🗂️ Project Structure
+constructionapp/
+│
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages
+│   ├── services/          # API & utility services
+│   ├── App.tsx            # Root component
+│   ├── main.tsx           # Entry point
+│
+├── public/                # Static assets
+├── vite.config.ts         # Vite configuration
+├── package.json           # Project dependencies
+├── README.md              # Documentation
+
+🔄 Application Workflow
+
+User logs into the system
+
+Selects a construction project
+
+Performs daily operations:
+
+Submit Daily Progress Reports
+
+Mark workforce attendance
+
+Raise material requests
+
+Managers review progress via dashboards
+
+Owners gain real-time site visibility
+
+🚧 Future Enhancements
+
+🔐 Role-based authentication (Admin / Engineer / Manager)
+
+📡 Offline mode with auto-sync
+
+🧠 AI-based progress and delay analysis
+
+📈 Predictive project insights
+
+🧾 GST-ready billing and invoicing
+
+🌍 Multi-project analytics dashboard
+
+📸 Screenshots
+
+Screenshots and demo videos will be added in future updates.
